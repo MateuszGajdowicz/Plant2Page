@@ -18,3 +18,4 @@ window.onload = function(){
     var lastWateringDate = localStorage.getItem("lastWateringDate");
     if(lastWateringDate){
     document.getElementById('p1').textContent =  lastWateringDate;}}
+
