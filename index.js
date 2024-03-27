@@ -6,8 +6,8 @@
 //    WateringDate.textContent = Date.toLocalString();
 //    }
 function waterPlant2() {
-        var currentDate = new Date();
-        var formattedDate2 = currentDate.toLocaleString();
+        var currentDate2 = new Date();
+        var formattedDate2 = currentDate2.toLocaleString();
         var WateringDate2 = document.getElementById('p1');
         WateringDate2.textContent = formattedDate2;
 
