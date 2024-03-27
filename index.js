@@ -19,6 +19,6 @@ window.onload = function(){
     if(lastWateringDate2){
     document.getElementById('p1').textContent =  lastWateringDate2;}
     var NewPlantName2 = localStorage.getItem("NewPlantName2");
-        if (NewPlantName2){
-            document.getElementById("h1").textContent = NewPlantName2;}}
+    if (NewPlantName2){
+        document.getElementById("h1").textContent = NewPlantName2;}}
 
