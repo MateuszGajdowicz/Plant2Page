@@ -5,16 +5,16 @@
 //    let WateringDate = document.getElementById("p1");
 //    WateringDate.textContent = Date.toLocalString();
 //    }
-function waterPlant1() {
+function waterPlant() {
         var currentDate = new Date();
-        var formattedDate1 = currentDate.toLocaleString();
-        var WateringDate1 = document.getElementById('p1');
-        WateringDate.textContent = formattedDate1;
+        var formattedDate = currentDate.toLocaleString();
+        var WateringDate = document.getElementById('p1');
+        WateringDate.textContent = formattedDate;
 
         window.location.href = 'https://mateuszgajdowicz.github.io/CongratulationsPage/';
-        localStorage.setItem("lastWateringDate1", formattedDate1);
+        localStorage.setItem("lastWateringDate", formattedDate);
         }
 window.onload = function(){
-    var lastWateringDate1 = localStorage.getItem("lastWateringDate1");
-    if(lastWateringDate1){
-    document.getElementById('p1').textContent =  lastWateringDate1;}}
+    var lastWateringDate = localStorage.getItem("lastWateringDate");
+    if(lastWateringDate){
+    document.getElementById('p1').textContent =  lastWateringDate;}}
